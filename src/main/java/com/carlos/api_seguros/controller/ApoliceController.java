@@ -32,5 +32,6 @@ public class ApoliceController {
 	@GetMapping("/{id}")
 	public Apolice buscarPorId(@PathVariable Long id) {
 		return apoliceService.buscarPorId(id);
+		
 	}
 }
